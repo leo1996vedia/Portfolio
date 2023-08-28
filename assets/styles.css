@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+
+}
+
+header {
+  background-image: url("/assets/imagenes/fondo.png");
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+header h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+nav {
+  font-size: 17px;
+  padding: 10px;
+  position: fixed;
+  
+}
+
+nav {
+  padding: 10px;
+  position: fixed;
+  right: 0; 
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin-left: 10px;
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+
+.social-icons img {
+  margin-right: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fotoPerfil {
+  width: 300px; 
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 10px; 
+}
+
+section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 5px;
+}
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tecnologias img {
+  width: 130px; 
+  height: auto;
+  margin: 15px; 
+}
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%; /* Agrega esta propiedad para que el formulario ocupe todo el ancho disponible */
+  }
+  
+
+form input,
+form textarea {
+  margin-bottom: 15px; /* Decrease the margin-bottom value to reduce the space between form elements */
+  padding: 10px; /* Increase the padding value to make the form elements larger */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 15px 30px; /* Increase the padding value to make the submit button larger */
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px; 
+  margin: 15px; 
+}
